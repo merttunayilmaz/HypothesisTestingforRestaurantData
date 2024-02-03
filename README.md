@@ -1,5 +1,5 @@
 
-# Statistical Analysis of Restaurant Data
+# Hypothesis Testing for Restaurants Data
 
 This Python script performs a statistical analysis on a dataset from a restaurant, comparing total bills and customer satisfaction between smoking and non-smoking customers.
 
