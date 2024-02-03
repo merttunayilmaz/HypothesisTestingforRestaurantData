@@ -1,0 +1,35 @@
+
+Elde edilen istatistiksel test sonuçlarını %5 anlamlılık düzeyi için değerlendirdiğimizde:
+
+Ortalama Sigara İçen Müşterilerin Hesap Tutarı: 255.45
+Ortalama Sigara İçmeyen Müşterilerin Hesap Tutarı: 246.01
+Yukarıdaki sonuçlara dayanarak, sigara içen müşterilerin ortalama hesap tutarı sigara içmeyen müşterilere göre daha yüksektir.
+
+Sigara İçen Müşterilerin Memnuniyet Puanlarının Normal Dağılımdan Gelip Gelmediği:
+Shapiro-Wilk testi sonucu: p-value=0.6856 (p > 0.05)
+Sigara İçmeyen Müşterilerin Memnuniyet Puanlarının Normal Dağılımdan Gelip Gelmediği:
+Shapiro-Wilk testi sonucu: p-value=0.9313 (p > 0.05)
+Her iki grup için de Shapiro-Wilk test sonuçları, p-değerlerinin 0.05'ten büyük olduğunu gösteriyor. Bu nedenle, memnuniyet puanları normal bir dağılıma sahip gibi görünüyor.
+
+Varyans Homojenliği Varsayımı (Levene Testi):
+Levene test sonucu: p-value=0.9709 (p > 0.05)
+Levene test sonucu, iki grup arasında hesap tutarlarının varyanslarının homojen olduğunu göstermektedir. Bu nedenle, t-testi için varyans homojenliği varsayımı sağlanmaktadır.
+
+Mann-Whitney U Test Sonucu:
+Mann-Whitney U test sonucu: p-value=0.1018 (p > 0.05)
+Mann-Whitney U test sonucu, sigara içen ve içmeyen müşterilerin hesap tutarı arasında istatistiksel olarak anlamlı bir fark olmadığını gösteriyor.
+
+T-Test Sonucu (Varyans Homojenliği Sağlandığında):
+T-test sonucu: p-value=0.1271 (p > 0.05)
+T-test sonucu, sigara içen ve içmeyen müşterilerin hesap tutarı arasında istatistiksel olarak anlamlı bir fark olmadığını gösteriyor.
+
+Sonuç olarak, verilere dayanarak, sigara içen ve içmeyen müşterilerin hesap tutarları veya memnuniyet puanları arasında istatistiksel olarak anlamlı bir fark bulunmadığı sonucuna varabiliriz.
+
+                              Measure               Category          Result
+0                     Mean Total Bill      Smoking Customers          255.45
+1                     Mean Total Bill  Non-Smoking Customers          246.01
+2            Normality Test (Shapiro)      Smoking Customers  p-value=0.6856
+3            Normality Test (Shapiro)  Non-Smoking Customers  p-value=0.9313
+4       Variance Homogeneity (Levene)   Variance Homogeneity  p-value=0.9709
+5                 Mann-Whitney U Test    Mann-Whitney U Test  p-value=0.1018
+6  T-Test (Equal Variance Assumption)                 T-Test  p-value=0.1271
